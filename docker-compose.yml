@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      # mount data + embeddings so you don't need to rebuild the image
+      # every time you re-run acquisition or embedding
+      - ./data:/app/data
+      - ./embeddings:/app/embeddings
+    environment:
+      - PYTHONPATH=/app/src

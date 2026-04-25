@@ -1,0 +1,26 @@
+[
+  {
+    "query": "Federated learning for medical image analysis",
+    "expected_researcher_ids": ["Q28025541","Q28731341", "Q20984804"]
+  },
+  {
+    "query": "Graph neural networks for molecular property prediction",
+    "expected_researcher_ids": ["Q28025541", "Q24290415", "Q26837548"]
+  },
+  {
+    "query": "Large language models for clinical text summarization",
+    "expected_researcher_ids": ["Q56571445", "Q21012566", "Q24290415"]
+  },
+  {
+    "query": "Explainable recommendation using knowledge graphs",
+    "expected_researcher_ids": ["Q20984804", "Q48975801","Q56651004"]
+  },
+  {
+    "query": "Detecting misinformation in social media with NLP",
+    "expected_researcher_ids": ["Q20980928", "Q26837548", "Q20984804"]
+  },
+  {
+    "query": "deep learning for medical imaging",
+    "expected_researcher_ids": ["Q24290415", "Q47502345", "Q29455525"]
+  }
+]

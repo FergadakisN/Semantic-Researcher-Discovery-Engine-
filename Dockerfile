@@ -6,8 +6,6 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY src/ ./src/
-COPY data/ ./data/
-COPY embeddings/ ./embeddings/
 
 ENV PYTHONPATH=/app/src
 

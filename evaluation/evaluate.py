@@ -83,7 +83,7 @@ def main():
     parser.add_argument(
         "--strategy",
         default="sum_top_3",
-        help="Aggregation strategy: max | sum_top_3 | mean_top_3",
+        help="Aggregation strategy: max | sum_top_3 | sum_top_N",
     )
     parser.add_argument("--paper-pool", type=int, default=100)
     parser.add_argument(
@@ -100,7 +100,7 @@ def main():
 
     if args.compare_all:
         fields = ["title_only", "title_topics"]
-        strategies = ["max", "sum_top_3", "mean_top_3"]
+        strategies = ["max", "sum_top_3"]
         for field in fields:
             index = RetrievalIndex(field=field)
             for strategy in strategies:

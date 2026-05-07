@@ -1,0 +1,602 @@
+[
+  {
+    "query": "Antimicrobial mechanisms of action of Lactic acid bacteria on Candida albicans",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Survery of microbial biodiversity in the geothermal feaures on Mt. Erebus, Antarctica",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Potential for plant biocontrol: isolation, diversity and antagonism of soil Bacillus",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Does oxygen affect the bacteriocidal activity of amikacin on Mycobacterium abscessus",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Microbial co-cultivation and flow cytometric analysis of Geodia barretti sponge cells",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Identification of organic phosphorous degrading microorganisms present in soil",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Characterization of bacterial infections in fungal fermentations",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Isolation and characterization of putative plastic-degrading bacteria",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Bioactivity of plant biocontrol Bacillus",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Isolation of plasticizer tolerant bacteria",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Antibiotic-mediated interactions between marine Vibrionaceae",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Establishment of fish probiotic Phaeobacter inhibens in algae cultures from commercial aquacultures",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Survival of food-derived Staphylococcus aureus in mixed microbial biofilms",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Characterization and exploration of the potential of a collection of bacterial isolates from the Mediterranean",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Antagonism of the emerging fish pathogen Tenacibaculum by probiotic roseobacters",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Influence of environmental conditions on TDA production in Phaeobacter inhibens DSM17395",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Inducing bioactivity in Pseudoalteromonas",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Fluorescent labelling of biosynthetic gene clusters for culture-independent acquisition of novel antimicrobial compounds",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Exploring the biotechnological potential of the species Ruegeria mobilis: a phenotypic and genomic analysis",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Microbial degradation of car-tire rubber",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "The influence of Pseudoalteromonas on the microbial community assembly in natural seawater",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Impact of the bioactive marine bacterium Phaeobacter piscinae on an algal microbiome",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Identification and characterization of bioactive bacteria from marine environments",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Improving cultivability of bioactive bacteria from marine environments",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Selecting and identifying probiotic bacteria against the trout pathogen Yersinia ruckerii",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "The effect of carbon sources on the expression of biosynthetic gene clusters in Pseudoalteromonas rubra S4059",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Exploring the anti-pathogen potential and microbiome composition of aquaculture live-feed cultures",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "TROPODITHIETIC ACID PRODUCING BACTERIA – A NOVEL TOOL FOR IMPROVING FOOD SAFETY OF MOLLSUCAN SHELLFISH",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Antibiotic susceptibility testing of undefined starter cultures by pheno- and genotyping",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Effect of plastic type and pre-treatment on the colonization of marine bacteria onto plastic particles",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Enhancing production of the bacterial antibiotic, tropodithietic acid",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Screening a collection of marine bacteria for antibacterial and enzymatic properties",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Influence of antibacterial compounds on expression of virulence and stress genes in Listeria monocytogens",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Do biocides and antimicrobial peptides induce persister formation in Listeria monocytogenes",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Interaction between a TDA-producing P. piscinae and the fish pathogen Vibrio anguillarum in biofilms",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Investigation of potential synergistic activity between antimicrobial peptides and peptoids",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Biodegradation of plasticizers by marine bacteria",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Experimental strategies for overproduction of cyclodepsipeptides in Photobacterium galatheae S2753",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Sustainable aquaculture through fish probiotics",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Molecular signature and phylogenetic analysis of Vibrionaceae strains from the Galatheae Collection",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Potential for bacterial resistance or tolerance to a copper-silver alloy",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Temporal Changes in TDA Biosynthetic Gene Clusters of Phaeobacter spp",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Improved cultivation efficiency of marine bacteria",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Isolation of arsenic resistant bacteria and their potential in bioremediation",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Is eDNA a component of marine bacterial biofilms",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Role of the secondary metabolites, solonamides, in Photobacterium galatheae",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Does the antibacterial compound tropodithietic acid affect virulence in Vibrio vulnificus?",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Identification of fish pathogenic Vibrio",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Determining the conditions that induce toxin/antitoxin genes in Listeria monocytogenes",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Methyl troposulfenin production by different TDA-producing Roseobacter group bacteria",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Development of a marine microbial synthetic community to study impact of secondary metabolite producing bacteria",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Interactions in bacterial communities from bryozoans: How bacterial neighbours cope with an antibiotic producer?",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Fluorescent protein reporter strains for fish pathogen Flavobacterium psychrophilum: Construction, Evaluation and Application",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Sequence based sub-typing of Listeria monocytogenes",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Effect of indigoidine producing Roseobacter group bacteria on the fish pathogen Vibrio anguillarum",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Impact of probiotic tropodithietic acid (TDA) producing Phaeobacter piscinae on microbial community members related to aquaculture live-feed",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Expression of chitinse genes in Pseudoaleromonas rubra",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Deleting gene(s) involved in synthesis of tropodithietic acid in marine bacteria",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Elucidating the genetic background of solonamide production in Photobacterium halotolerans",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Effect of probiotic TDA-producing bacteria on the microbiome of the aquaculture algae Isochrysis galbana",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Using in situ cultivation for the discovery of novel naural products",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Expression of TDA genes in Phaeobacter species",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Response of E. coli exposed to virulence factor specific nanoboies",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "The influence of a secondary metabolite producing marine bacteria on a model multispecies bacterial community",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "The influence of microbial secondary metabolites on the interactions between two marine bacteria, Pseudoalreromonas piscicida and Phaeobacter sp",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Construction and investigation of a prodigiosin deficient Pseudoalteromonas rubra S4059 mutant",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "The influence of synthetic microbial community members from the Tetraselmis sueccica microbiome on the transcription of the tdaC gene of Phaeobacter piscinae S26",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Response of E. coli ETEC following adaptive laboratory evolution exposure to anti-fimbria single domain antibodies",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Quorum sensing and antibiotic production in the Roseobacter bacteria Phaeobacter gallaeciensis strain BS107",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Evaluation of physiology and biofilm formation of E. coli ETEC and attenuated ETEC strains treated with binding proteins",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Antibacterial and fish probiotic potential of TDA producing roseobacters from Danish coastal waters",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Increasing phylogenetic resolution of microbiomes by genus-specific primers",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Profiling the stability of L-DOPA producing plasmids",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Exploring the microbiome of Danish marine bryozoans: Identification of Phaeobacter spp. isolates",
+    "expected_researcher_ids": [
+      "Q50824697"
+    ]
+  },
+  {
+    "query": "Applying natural language processing to FAO programs and projects",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Automatic text summarization",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "App for company onboarding assistance",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Automated indexing of Danish online shops",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Large language models for database query generation",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Exploratory methods for annotating data structures by decompositions of difficult questions",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Natural language processing and data analysis of web content",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Automated anonymisation using named-entity recognition",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Related entities in large knowledge graphs",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Machine Learning for Automated Threat Detection of Phishing E-mails",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "A Machine Learning approach to predicting Passwords",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Computational modeling of the impact of retractions on article citations",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "DTU Fitness Social Hub",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Democratizing Financial Advice with AI: LLM Agents and RAG for Personalized Wealth Strategies",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Phishing detection with artificial intelligence",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "AI-Powered Product Selection: Using Open-Source LLMs to Centralize Knowledge to provide customer-centered solution",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Text-Based Shopping Bot for a Personalized and User-Friendly Shopping Experience",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Large language models in engineering education",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Relationship extraction with large language models",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Deep Learning for Geolocalization",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Social media mining of the Icelandic blogosphere",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Large language models for collecting structured information",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Brewer Augmentor",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Machine learning for tagging of biomedical literature",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Data mining brain regions with neuroimaging databases",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  },
+  {
+    "query": "Improving User Interaction with Rental Platforms via Artificial Intelligence Models",
+    "expected_researcher_ids": [
+      "Q20980928"
+    ]
+  }
+]

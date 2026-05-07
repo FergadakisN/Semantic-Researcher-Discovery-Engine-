@@ -1,10 +1,13 @@
 """
 Aggregate paper-level matches into a researcher-level ranking.
 
-Three strategies are implemented and can be compared:
+Two strategies are implemented:
   - max:        researcher score = best single paper score
   - sum_top_k:  researcher score = sum of top-k paper scores
-  - mean_top_k: researcher score = mean of top-k paper scores
+
+Note: mean_top_k is NOT a separate strategy — for a fixed k it is a
+constant (1/k) scaling of sum_top_k and therefore produces identical
+rank orderings.
 """
 
 from collections import defaultdict
@@ -31,8 +34,7 @@ def aggregate(
     Convert a ranked list of PaperMatch objects into a ranked list of
     ResearcherResult objects.
 
-    strategy options: "max", "sum_top_3", "mean_top_3"
-                      or "sum_top_N" / "mean_top_N" for any integer N.
+    strategy options: "max" | "sum_top_3" | "sum_top_N" for any integer N.
     """
     # A single paper can belong to multiple researchers, so one PaperMatch may
     # contribute evidence to several researcher candidates.
@@ -55,7 +57,7 @@ def aggregate(
 
         # Score the researcher from their strongest matching papers rather than
         # from every paper in the corpus.
-        score = _compute_score(strategy, [m.score for m in sorted_matches], k)
+        score = _compute_score([m.score for m in sorted_matches], k)
 
         # Collect supporting evidence for the API response. Titles are kept in
         # score order and deduplicated; topics are merged across top matches.
@@ -94,12 +96,9 @@ def _parse_k(strategy: str) -> int | None:
         return 3
 
 
-def _compute_score(strategy: str, scores: list[float], k: int | None) -> float:
+def _compute_score(scores: list[float], k: int | None) -> float:
     if not scores:
         return 0.0
-    if strategy == "max":
-        return scores[0]
-    top = scores[:k] if k else scores
-    if strategy.startswith("mean"):
-        return sum(top) / len(top)
-    return sum(top)  # sum_top_k default; rewards multiple strong matches
+    if k is None:
+        return scores[0]  # max strategy
+    return sum(scores[:k])

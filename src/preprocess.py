@@ -69,9 +69,9 @@ def preprocess(raw_path: Path, papers_out: Path, researchers_out: Path) -> None:
 
     skipped = 0
     for row in title_rows:
-        paper_id = strip_uri(row["paper"])
+        paper_id = strip_uri(row["publication"])
         researcher_id = strip_uri(row["researcher"])
-        title = normalize(row.get("paperTitle", ""))
+        title = normalize(row.get("title", ""))
         researcher_name = normalize(row.get("researcherLabel", ""))
 
         if not title or len(title) < 5:

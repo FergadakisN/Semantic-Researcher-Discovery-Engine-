@@ -31,7 +31,7 @@ VERSION = "0.1.0"
 
 # Supported embedding fields
 EmbeddingField = Literal["title_only", "title_topics"]
-AggStrategy = Literal["max", "sum_top_3", "mean_top_3"]
+AggStrategy = Literal["max", "sum_top_3"]
 
 # Global indexes (loaded once at startup)
 _indexes: dict[str, RetrievalIndex] = {}

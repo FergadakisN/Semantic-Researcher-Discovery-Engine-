@@ -28,13 +28,28 @@ QUERY_TITLES = """
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX wd:  <http://www.wikidata.org/entity/>
 PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?researcher ?researcherLabel ?paper ?paperTitle WHERE {
-  ?researcher wdt:P108 wd:Q1269766 .
-  ?paper      wdt:P50  ?researcher .
-  ?paper      rdfs:label ?paperTitle .
-  ?researcher rdfs:label ?researcherLabel .
-  FILTER(LANG(?paperTitle)     = "en")
-  FILTER(LANG(?researcherLabel) = "en")
+PREFIX p:   <http://www.wikidata.org/prop/>
+PREFIX ps:  <http://www.wikidata.org/prop/statement/>
+PREFIX pq:  <http://www.wikidata.org/prop/qualifier/>
+SELECT DISTINCT ?researcher ?researcherLabel ?publication ?title WHERE {
+  {
+    ?researcher p:P1416 ?affiliation_statement .
+    ?affiliation_statement ps:P1416 ?organization .
+    ?organization wdt:P361+ wd:Q1269766 .
+  }
+  UNION {
+    ?researcher p:P108 ?affiliation_statement .
+    ?affiliation_statement ps:P108 wd:Q1269766 .
+  }
+  MINUS {
+    ?affiliation_statement pq:P582 ?end_time .
+  }
+
+  ?publication wdt:P50  ?researcher ;
+               wdt:P1476 ?title .
+  OPTIONAL { ?researcher rdfs:label ?researcherLabelEn .  FILTER(LANG(?researcherLabelEn)  = "en") }
+  OPTIONAL { ?researcher rdfs:label ?researcherLabelMul . FILTER(LANG(?researcherLabelMul) = "mul") }
+  BIND(COALESCE(?researcherLabelEn, ?researcherLabelMul, SUBSTR(STR(?researcher), 32)) AS ?researcherLabel)
 }
 """
 
@@ -54,7 +69,10 @@ SELECT ?paper ?topic ?topicLabel WHERE {
 
 def sparql_query(query: str, endpoint: str = QLEVER_ENDPOINT) -> list[dict]:
     """Execute a SPARQL SELECT query; return list of binding dicts."""
-    headers = {"Accept": "application/sparql-results+json"}
+    headers = {
+        "Accept": "application/sparql-results+json",
+        "User-Agent": "DTU-ResearcherFinder/1.0 (NLP course project; nikosfergadakis@gmail.com)",
+    }
     params = {"query": query}
     resp = requests.get(endpoint, headers=headers, params=params, timeout=120)
     resp.raise_for_status()

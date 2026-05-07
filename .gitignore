@@ -11,3 +11,5 @@ dist/
 build/
 .DS_Store
 .env
+REPORT.md
+evaluation/EVALUATION_APPROACH.md
